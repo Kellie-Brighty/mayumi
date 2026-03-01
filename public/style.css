@@ -466,6 +466,15 @@ section { padding: var(--section-padding) 0; }
     .social-list { justify-content: center; }
     
     #true-form .grid-half { grid-template-columns: 1fr; }
+
+    /* Header Mobile */
+    header { padding: 1rem 0; }
+    .nav-links { gap: 1rem; }
+    .nav-links a { font-size: 0.8rem; }
+    .logo-text { display: none; } /* Hide text on mobile to save space */
+    .nav-logo { width: 32px; height: 32px; }
+
+    .floating-sticker { display: none; } /* Hide sticker on mobile */
 }
 
 @media (max-width: 480px) {
