@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayumi-chan | The Shibaverse Queen</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@700;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Layer -->
+    <div id="bg-canvas">
+        <div class="glow-blob glow-1"></div>
+        <div class="glow-blob glow-2"></div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="container mobile-stack">
+                <div class="grid-main">
+                    <div class="hero-text-block">
+                        <div class="hero-tag">
+                            <span>🐾</span> The New Shiba Sister
+                        </div>
+                        <h1 class="hero-title">MEET <br><span class="gradient-text">MAYUMI-CHAN</span></h1>
+                        <p class="subtitle">The latest jewel in Riko Mama's family. A cartoonized saga of adventure, sibling bonds, and crypto-ready shots.</p>
+                        
+                        <!-- CA Copier -->
+                        <div class="ca-box">
+                            <span class="ca-addr" id="ca-text">0x4cf8588DAC7a494AE2Fc0083D78bf9Deb827cA4E</span>
+                            <button class="copy-btn" id="copy-trigger">COPY CA</button>
+                        </div>
+
+                        <!-- Socials -->
+                        <div class="social-list">
+                            <a href="https://t.me/Mayumichaneth" target="_blank" class="social-link" aria-label="Telegram">
+                                <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.11.02-1.87 1.18-5.29 3.48-.5.34-.95.51-1.35.5-.44-.01-1.28-.24-1.9-.44-.77-.25-1.38-.39-1.33-.82.03-.22.33-.45.92-.68 3.58-1.56 5.96-2.59 7.16-3.08 3.4-1.41 4.1-.16 4.02.57z"/></svg>
+                            </a>
+                            <a href="https://x.com/mayumichaneth" target="_blank" class="social-link" aria-label="X (Twitter)">
+                                <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="hero-img-wrap">
+                        <div class="img-container">
+                            <img src="mayumi_hero.png" alt="Mayumi-chan Cartoon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- True Form Section -->
+        <section id="true-form">
+            <div class="container">
+                <h2>The <span class="gradient-text">True Form</span></h2>
+                <div class="grid-half">
+                    <div class="feature-card">
+                        <div class="card-img-wrap">
+                            <img src="mayumi-chan.jpg" alt="Real Mayumi-chan">
+                        </div>
+                        <h3>The Real Queen</h3>
+                        <p style="color: var(--color-text-muted)">The original beauty and Shiba spark that inspired this entire journey.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="card-img-wrap">
+                            <img src="mayumi_hero.png" alt="Shibaverse Form">
+                        </div>
+                        <h3>Shibaverse Mode</h3>
+                        <p style="color: var(--color-text-muted)">Hyper-animated, gravity-defying, and ready for the moon.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Live Chart Section -->
+        <section id="chart-section">
+            <div class="container">
+                <h2>Live <span class="gradient-text">Chart</span></h2>
+                <div class="chart-wrap">
+                    <iframe src="https://dexscreener.com/ethereum/0x4cf8588DAC7a494AE2Fc0083D78bf9Deb827cA4E?embed=1&theme=dark" title="DexScreener Chart"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- UI Components -->
+    <div id="toast">CA COPIED! 🐾</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
